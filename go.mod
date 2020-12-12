@@ -1,4 +1,4 @@
-module github.com/AlexeySemigradsky/hk-mh
+module github.com/AlexeySemigradsky/hkmh
 
 go 1.15
 
