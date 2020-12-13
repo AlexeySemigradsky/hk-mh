@@ -1,5 +1,5 @@
-github.com/AlexeySemigradsky/mh v0.0.0-20201212174118-a31258b88565 h1:i4QwjEOV+BnNLWqqMHMaU1Op5SGlyi1PYB1OUFKHaOk=
-github.com/AlexeySemigradsky/mh v0.0.0-20201212174118-a31258b88565/go.mod h1:KxoAOvIFYS2W38EUY33XZM/yUItNFHOMuDNkw8ic5Yk=
+github.com/AlexeySemigradsky/mh v1.0.0 h1:imw9+8/89Rh+6RweAfMtNXXrenLP5HNlNP7X58PSNh0=
+github.com/AlexeySemigradsky/mh v1.0.0/go.mod h1:KxoAOvIFYS2W38EUY33XZM/yUItNFHOMuDNkw8ic5Yk=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/brutella/dnssd v1.1.1/go.mod h1:9gIcMKQSJvYlO2x+HR50cqqjghb9IWK9hvykmyveVVs=
 github.com/brutella/hc v1.2.3 h1:9a3h61apXx+63b1T+W1vscs+G3xZkLS131gypnh1FIE=
@@ -22,12 +22,15 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/tadglines/go-pkgs v0.0.0-20140924210655-1f86682992f1/go.mod h1:roo6cZ/uqpwKMuvPG0YmzI5+AmUiMWfjCBZpGXqbTxE=
-github.com/xiam/to v0.0.0-20191116183551-8328998fc0ed h1:Gjnw8buhv4V8qXaHtAWPnKXNpCNx62heQpjO8lOY0/M=
 github.com/xiam/to v0.0.0-20191116183551-8328998fc0ed/go.mod h1:cqbG7phSzrbdg3aj+Kn63bpVruzwDZi58CpxlZkjwzw=
-go.uber.org/atomic v1.6.0 h1:Ezj3JGmsOnG1MoRWQkPBsKLe9DwWD9QeXzTRzzldNVk=
+github.com/xiam/to v0.0.0-20200126224905-d60d31e03561 h1:SVoNK97S6JlaYlHcaC+79tg3JUlQABcc0dH2VQ4Y+9s=
+github.com/xiam/to v0.0.0-20200126224905-d60d31e03561/go.mod h1:cqbG7phSzrbdg3aj+Kn63bpVruzwDZi58CpxlZkjwzw=
 go.uber.org/atomic v1.6.0/go.mod h1:sABNBOSYdrvTF6hTgEIbc7YasKWGhgEQZyfxyTvoXHQ=
-go.uber.org/multierr v1.5.0 h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A=
+go.uber.org/atomic v1.7.0 h1:ADUqmZGgLDDfbSL9ZmPxKTybcoEYHgpYfELNoN+7hsw=
+go.uber.org/atomic v1.7.0/go.mod h1:fEN4uk6kAWBTFdckzkM89CLk9XfWZrxpCo0nPH17wJc=
 go.uber.org/multierr v1.5.0/go.mod h1:FeouvMocqHpRaaGuG9EjoKcStLC43Zu/fmqdUMPcKYU=
+go.uber.org/multierr v1.6.0 h1:y6IPFStTAIT5Ytl7/XYmHvzXQ7S3g/IeZW9hyZ5thw4=
+go.uber.org/multierr v1.6.0/go.mod h1:cdWPpRnG4AhwMwsgIHip0KRBQjJy5kYEpYjJxpXp9iU=
 go.uber.org/tools v0.0.0-20190618225709-2cfd321de3ee/go.mod h1:vJERXedbb3MVM5f9Ejo0C68/HhF8uaILCdgjnY+goOA=
 go.uber.org/zap v1.16.0 h1:uFRZXykJGK9lLY4HtgSw44DnIcAM+kRBP7x5m+NpAOM=
 go.uber.org/zap v1.16.0/go.mod h1:MA8QOfq0BHJwdXa996Y4dYkAqRKB8/1K1QMMZVaNZjQ=

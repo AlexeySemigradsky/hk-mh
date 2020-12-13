@@ -1,10 +1,12 @@
 package hkmh_test
 
 import (
-	"github.com/AlexeySemigradsky/hk-mh"
-	"github.com/brutella/hc/accessory"
 	"os"
 	"testing"
+	"time"
+
+	"github.com/AlexeySemigradsky/hkmh"
+	"github.com/brutella/hc/accessory"
 )
 
 var info = accessory.Info{
@@ -13,7 +15,7 @@ var info = accessory.Info{
 var address = os.Getenv("DEVICE_ADDRESS")
 
 func TestNewAccessory(t *testing.T) {
-	_, err := hkmh.NewAccessory(info, address)
+	_, err := hkmh.NewAccessory(info, address, 3*time.Second)
 	if err != nil {
 		t.Error(err)
 	}

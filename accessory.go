@@ -1,6 +1,8 @@
 package hkmh
 
 import (
+	"time"
+
 	"github.com/AlexeySemigradsky/mh"
 	"github.com/brutella/hc/accessory"
 	"github.com/lucasb-eyer/go-colorful"
@@ -15,13 +17,13 @@ type MHAccessory struct {
 	logger     *zap.SugaredLogger
 }
 
-func NewAccessory(info accessory.Info, address string) (*MHAccessory, error) {
+func NewAccessory(info accessory.Info, address string, timeout time.Duration) (*MHAccessory, error) {
 	logger, err := NewLogger(zap.InfoLevel)
 	if err != nil {
 		return nil, err
 	}
 
-	c := mh.NewController(address)
+	c := mh.NewController(address, timeout)
 
 	a := MHAccessory{}
 	a.Accessory = accessory.New(info, accessory.TypeLightbulb)
