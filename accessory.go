@@ -26,7 +26,6 @@ type MHAccessory struct {
 }
 
 func NewAccessory(config Config) *MHAccessory {
-	log.Println(config)
 	c := mh.NewController(mh.Config{
 		IP:      config.IP,
 		Timeout: config.Timeout,
