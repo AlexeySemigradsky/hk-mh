@@ -1,7 +1,7 @@
-github.com/AlexeySemigradsky/clr v1.0.0 h1:P7XbM+Y1so4vbtmunPYL2o13QW/8CbSorocXskKH+DU=
-github.com/AlexeySemigradsky/clr v1.0.0/go.mod h1:gjX1uMy7pwTmchtcNk7V+czS/Mkhk/pzus2kA7qI6+U=
-github.com/AlexeySemigradsky/mh v1.2.0 h1:zFyMuM16Bw9o9n7HoYcUqboPczpeAFLfeigwO46r6Sk=
-github.com/AlexeySemigradsky/mh v1.2.0/go.mod h1:KxoAOvIFYS2W38EUY33XZM/yUItNFHOMuDNkw8ic5Yk=
+github.com/gradddev/clr v1.0.0 h1:P7XbM+Y1so4vbtmunPYL2o13QW/8CbSorocXskKH+DU=
+github.com/gradddev/clr v1.0.0/go.mod h1:gjX1uMy7pwTmchtcNk7V+czS/Mkhk/pzus2kA7qI6+U=
+github.com/gradddev/mh v1.2.0 h1:zFyMuM16Bw9o9n7HoYcUqboPczpeAFLfeigwO46r6Sk=
+github.com/gradddev/mh v1.2.0/go.mod h1:KxoAOvIFYS2W38EUY33XZM/yUItNFHOMuDNkw8ic5Yk=
 github.com/brutella/dnssd v1.1.1 h1:Ar5ytE2Z9x5DTmuNnASlMTBpcQWQLm9ceHb326s0ykg=
 github.com/brutella/dnssd v1.1.1/go.mod h1:9gIcMKQSJvYlO2x+HR50cqqjghb9IWK9hvykmyveVVs=
 github.com/brutella/hc v1.2.3 h1:9a3h61apXx+63b1T+W1vscs+G3xZkLS131gypnh1FIE=

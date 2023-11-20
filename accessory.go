@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/AlexeySemigradsky/clr"
-	"github.com/AlexeySemigradsky/mh"
+	"github.com/gradddev/clr"
+	"github.com/gradddev/mh"
 	"github.com/brutella/hc/accessory"
 )
 
